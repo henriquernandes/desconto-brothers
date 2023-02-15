@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd ./backend && npm run server\" \"cd ../frontend && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
